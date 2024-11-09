@@ -18,7 +18,7 @@ We need to audit HfLA codebase files for spelling errors using the Code Spell Ch
 - [ ] Locate the file in column A ("File") of the "Page Audit" sheet. In the column labeled "Result Summary", select the appropriate option: `No errors` or `At least one error`.
 - [ ] If at least one error was reported, copy/paste each cSpell message into a separate row in the `Results` sheet
 - [ ] In each new row, select the appropriate value: `misspelling` or `false positive` from the "Result type" column. A false positive is a term that is not a misspelling but is not recognized by the spell checker because it is a technical term, abbreviation, acronym, URL or proper noun (name of a person, place or organization).
-- [ ] Move this issue to the Questions/In Review column and apply the label `ready for dev lead`
+- [ ] Move this issue to the Questions/In Review column and apply the label `ready for merge team`
 
 ### Merge Team
 - [ ] After this issue is closed, release the dependency on this issue in #5248
